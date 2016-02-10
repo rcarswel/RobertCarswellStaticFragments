@@ -13,4 +13,25 @@
     tools:context="edu.westga.cs6242.robertcarswellstaticfragments.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/dataEntryFragment"
+            android:name="edu.westga.cs6242.robertcarswellstaticfragments.DataEntryFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:layout="@layout/fragment_data_entry" />
+
+        <fragment
+            android:id="@+id/dataDisplayFragment"
+            android:name="edu.westga.cs6242.robertcarswellstaticfragments.DataDisplayFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:layout="@layout/fragment_data_display" />
+    </LinearLayout>
 </RelativeLayout>
