@@ -3,33 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="1"
-    tools:context="edu.westga.cs6242.robertcarswellstaticfragments.DataEntryFragment">
+    tools:context="edu.westga.cs6242.robertcarswellstaticfragments.DataDisplayFragment">
+
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/numbers"
+        android:text="@string/zero"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <EditText
-        android:id="@+id/editView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="numberSigned|numberDecimal" />
-
-    <EditText
-        android:id="@+id/editView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="numberSigned|numberDecimal" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/multiply" />
+        android:text="@string/add" />
 </LinearLayout>
