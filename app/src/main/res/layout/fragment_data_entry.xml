@@ -15,13 +15,13 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
-        android:id="@+id/editView1"
+        android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberSigned|numberDecimal" />
 
     <EditText
-        android:id="@+id/editView2"
+        android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberSigned|numberDecimal" />

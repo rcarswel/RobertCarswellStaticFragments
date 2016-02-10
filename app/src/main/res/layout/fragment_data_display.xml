@@ -5,7 +5,6 @@
     android:orientation="vertical"
     tools:context="edu.westga.cs6242.robertcarswellstaticfragments.DataDisplayFragment">
 
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
