@@ -21,7 +21,6 @@ public class DataEntryFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View theView = inflater.inflate(R.layout.fragment_data_entry, container, false);
 
         this.number1Text = (EditText) theView.findViewById(R.id.editView1);
