@@ -23,8 +23,8 @@ public class DataEntryFragment extends Fragment {
                              Bundle savedInstanceState) {
         View theView = inflater.inflate(R.layout.fragment_data_entry, container, false);
 
-        this.number1Text = (EditText) theView.findViewById(R.id.editView1);
-        this.number2Text = (EditText) theView.findViewById(R.id.editView2);
+        this.number1Text = (EditText) theView.findViewById(R.id.editText1);
+        this.number2Text = (EditText) theView.findViewById(R.id.editText2);
 
         Button multiplyButton = (Button) theView.findViewById(R.id.button1);
         multiplyButton.setOnClickListener(new View.OnClickListener() {

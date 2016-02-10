@@ -36,7 +36,7 @@ public class DataDisplayFragment extends Fragment {
         this.number2 = number2;
     }
 
-    public void multiple() {
+    public void multiply() {
         this.product = this.number1 * this.number2;
     }
 

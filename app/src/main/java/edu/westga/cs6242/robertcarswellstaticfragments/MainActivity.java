@@ -9,7 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements DataEntryFragment.DataEntryListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,4 +50,13 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onDataEntry(Double number1, Double number2) {
+        DataDisplayFragment displayFragment = (DataDisplayFragment)
+                getSupportFragmentManager().findFragmentById(R.id.dataDisplayFragment);
+        displayFragment.setNumber1(number1);
+        displayFragment.setNumber2(number2);
+        displayFragment.multiply();
+        displayFragment.displayProduct();
+    }
 }
