@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context="edu.westga.cs6242.robertcarswellstaticfragments.DataDisplayFragment">
+    tools:context="edu.westga.cs6242.robertcarswellstaticfragments.DataAdditionFragment">
 
     <TextView
         android:id="@+id/textView1"
@@ -13,10 +13,4 @@
         android:text="@string/zero"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/add" />
 </LinearLayout>
