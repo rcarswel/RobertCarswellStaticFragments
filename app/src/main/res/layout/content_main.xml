@@ -30,4 +30,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         tools:layout="@layout/fragment_data_display" />
+
+    <fragment
+        android:id="@+id/dataAdditionFragment"
+        android:name="edu.westga.cs6242.robertcarswellstaticfragments.DataAdditionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:layout="@layout/fragment_data_addition" />
 </LinearLayout>
